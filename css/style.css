@@ -6,19 +6,19 @@
 
 body {
   font-family: "Outfit", sans-serif;
+  background-color: #d6e2f0;
 }
 
 .main {
-  background-color: #d6e2f0;
   margin-top: 80px;
   width: 90%;
   padding: 10px 0 100px 0;
-  box-shadow: 0 20px 20px 5px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -30,7 +30,7 @@ body {
   box-shadow: 0 20px 20px 5px rgba(0, 0, 0, 0.05);
 }
 
-.qr-img img {
+img {
   border-radius: 10px;
   width: 100%;
   height: auto;
@@ -38,7 +38,7 @@ body {
 }
 
 h1 {
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 700;
   color: #1f3251;
   transform: scale(0.9);
